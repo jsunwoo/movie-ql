@@ -20,3 +20,7 @@ Don't know so far what this is going to be used.
 # 4: Creating the first Query and Resolver
 Schema is for decribing something, when I need to decribe data feched from DB.
 resolvers : which is going to resolve Query
+
+# 5: Extending the Schema
+http://localhost:4000/
+How to enter playground.
