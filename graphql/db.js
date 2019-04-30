@@ -32,3 +32,13 @@ export const deletePerson = id => {
     return false;
   }
 };
+
+export const addPerson = (name, age) => {
+  const newPerson = {
+    id: `${people.length + 1}`,
+    name,
+    age
+  };
+  people.push(newPerson);
+  return newPerson;
+};
