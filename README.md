@@ -37,3 +37,8 @@ resolver: (question) resolver
 schema: documentation / rules
 
 user -> make query -> resolve the query -> find from DB -> return to user
+
+# 10: Delete Mutation
+
+mutation: something for changing DB value
+Gonna learn how to adapt GraphQL to REST API from next lecture
