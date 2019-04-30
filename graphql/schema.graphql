@@ -2,11 +2,14 @@ type Person {
   id: Int!
   name: String!
   age: Int!
-  gender: String!
 }
 
 type Query {
   people: [Person]!
   # Person! 안한이유는 원하는 Person이 없을수도 있기 때문
   person(id: Int!): Person
+}
+
+type Mutation {
+  addPerson(name: String!, age: Int!): Person!
 }
