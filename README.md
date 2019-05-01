@@ -1,4 +1,4 @@
-# movie-ql
+# movieql
 
 Followed GraphQL lecture by Nomadcoders
 Thank you for the great lecture Nicholas.
