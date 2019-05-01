@@ -1,16 +1,16 @@
-type Person {
+type Movie {
   id: Int!
-  name: String!
-  age: Int!
+  # name: String!
+  # age: Int!
 }
 
 type Query {
-  people: [Person]!
+  movies: [Movie]!
   # Person! 안한이유는 원하는 Person이 없을수도 있기 때문
-  person(id: Int!): Person
+  # movie(id: Int!): Movie
 }
 
-type Mutation {
-  addPerson(name: String!, age: Int!): Person!
-  deletePerson(id: Int!): Boolean!
-}
+# type Mutation {
+#   addMovie(name: String!, age: Int!): Movie!
+#   deleteMovie(id: Int!): Boolean!
+# }
