@@ -1,16 +1,9 @@
 type Movie {
   id: Int!
-  # name: String!
-  # age: Int!
+  title: String!
+  rating: Float!
 }
 
 type Query {
-  movies: [Movie]!
-  # Person! 안한이유는 원하는 Person이 없을수도 있기 때문
-  # movie(id: Int!): Movie
+  movies(limit: Int, rating: Float): [Movie]!
 }
-
-# type Mutation {
-#   addMovie(name: String!, age: Int!): Movie!
-#   deleteMovie(id: Int!): Boolean!
-# }
